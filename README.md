@@ -11,7 +11,6 @@ This project aims to predict the presence of heart disease in a patient using va
   - [Support Vector Machine (SVM)](#support-vector-machine-svm)
   - [Decision Trees](#decision-trees)
   - [Random Forest](#random-forest)
-  - [Simple Neural Network (SNN)](#simple-neural-network-snn)
 - [Hyperparameter Tuning](#hyperparameter-tuning)
 - [Best Model](#best-model)
 - [Streamlit Web App](#streamlit-web-app)
@@ -48,8 +47,6 @@ Various machine learning models were trained and evaluated, including:
 ### Random Forest
 - Evaluated with different numbers of trees and depths.
 
-### Simple Neural Network (SNN)
-- Implemented a simple neural network with one hidden layer.
 
 ## Hyperparameter Tuning
 Hyperparameter tuning was performed using GridSearchCV and RandomizedSearchCV. Despite this, the logistic regression model without hyperparameter tuning yielded the best performance.
