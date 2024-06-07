@@ -65,6 +65,31 @@ A Streamlit web app was developed to deploy the logistic regression model. This 
 Follow these steps:
 1. Clone the repository
 ```
-git clone https://github.com/yourusername/heart-disease-prediction.git
+git clone https://github.com/iSathyam31/CardioPredict.git
 cd heart-disease-prediction
 ```   
+
+2. Create and activate a virtual environment:
+```
+python -m venv venv
+source venv/bin/activate   # On Windows, use `venv\Scripts\activate`
+```
+
+3. Install the required packages:
+```
+pip install -r requirements.txt
+```
+
+4. Run the Streamlit app:
+```
+streamlit run app.py
+```
+
+## Results
+The logistic regression model achieved the highest accuracy among all models. The results from the web app can provide a quick assessment of heart disease risk based on user inputs.
+
+## Contributing
+Contributions are welcome! Please open an issue or submit a pull request for any features, bug fixes, or enhancements.
+
+## License
+This project is licensed under the MIT License.
