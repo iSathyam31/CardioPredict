@@ -83,6 +83,11 @@ pip install -r requirements.txt
 4. Run the Streamlit app:
 ```
 streamlit run app.py
+
+## Usage
+Open your browser and go to http://localhost:8501.
+Input the required medical parameters.
+Click on the 'Predict' button to get the prediction result
 ```
 
 ## Results
